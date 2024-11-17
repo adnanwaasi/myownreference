@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo pacman -S cuda-toolkit
+
+sudo pacman -Fy nvidia-smi 
+
+sudo pacman -S nvidia-smi
+
+exit 0
