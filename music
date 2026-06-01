@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+MUSIC_DIR="$HOME/Music"
+
+mpv --shuffle --no-video "$MUSIC_DIR"
